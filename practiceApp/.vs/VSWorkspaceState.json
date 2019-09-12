@@ -3,10 +3,11 @@
     "",
     "\\src",
     "\\src\\css",
+    "\\src\\css\\images",
     "\\src\\js",
     "\\src\\js\\viewModels",
     "\\src\\js\\views"
   ],
-  "SelectedNode": "\\src\\js\\viewModels\\about.js",
+  "SelectedNode": "\\src\\css\\images\\startup.svg",
   "PreviewInSolutionExplorer": false
 }
