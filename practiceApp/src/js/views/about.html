@@ -1,0 +1,36 @@
+<!--
+ Copyright (c) 2014, 2019, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+    <body class="oj-web-applayout-body">
+        <div id="globalBody" class="oj-web-applayout-page">
+
+            <div class="hero-image4">
+                <div class="hero-text2">
+                    <h3 style="color:white;font-weight:300;">The Interviewing &</h3>
+                    <h1 style="color:white;font-size:5vw">Recruitment Process</h1>
+                </div>
+            </div>
+
+            <div role="main" class="oj-web-applayout-max-width oj-web-applayout-content">
+                <div class="oj-hybrid-padding">
+
+                    <div id="train-container">
+                        <oj-train id="train"
+                                  class="oj-train-stretch"
+                                  style="max-width:700px;margin-left:auto;margin-right:auto;"
+                                  on-selected-step-changed="[[updateLabelText]]"
+                                  selected-step="{{selectedStepValue}}"
+                                  steps="[[stepArray]]">
+                        </oj-train>
+                        <br />
+                        <h3 id="currentStepText"
+                            data-bind="text: 'You are on ' + selectedStepLabel()"
+                            style="text-align: center">
+                        </h3>
+                        <br />
+                    </div>
+
+                </div>
+            </div>
+</body>
